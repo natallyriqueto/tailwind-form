@@ -12,6 +12,7 @@ import {
 } from 'lucide-react'
 import { NavItem } from './NavItem'
 import { UsedSpaceWidget } from './UsedSpaceWidget'
+import { Profile } from './Profile'
 
 export function SideBar() {
   return (
@@ -43,6 +44,10 @@ export function SideBar() {
       </div>
 
       <UsedSpaceWidget />
+
+      <div className="h-px bg-zinc-200"></div>
+
+      <Profile />
     </aside>
   )
 }
